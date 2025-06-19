@@ -42,11 +42,17 @@
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true
+    },
+    "publish": {
+      "provider": "github",
+      "owner": "ivanruedas85",
+      "repo": "cotizaciones_rlw"
     }
   },
   "dependencies": {
     "@radix-ui/react-alert-dialog": "^1.0.5",
     "@radix-ui/react-label": "^2.1.7",
+    "@radix-ui/react-progress": "^1.1.7",
     "@radix-ui/react-select": "^2.2.5",
     "@radix-ui/react-tabs": "^1.1.12",
     "class-variance-authority": "^0.7.0",
@@ -66,14 +72,15 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10",
+    "concurrently": "^8.2.2",
+    "electron": "^27.0.0",
+    "electron-builder": "^24.6.4",
+    "electron-updater": "^6.1.4",
     "eslint": "^8",
     "eslint-config-next": "14.0.0",
     "postcss": "^8",
     "tailwindcss": "^3",
     "typescript": "^5",
-    "electron": "^27.0.0",
-    "electron-builder": "^24.6.4",
-    "concurrently": "^8.2.2",
     "wait-on": "^7.2.0"
   }
 }

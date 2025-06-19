@@ -111,35 +111,35 @@ sales-quotation-manager/
 ### Pasos de Instalación
 
 1. **Clonar el repositorio**
-\`\`\`bash
+```bash
 git clone <url-del-repositorio>
 cd sales-quotation-manager
-\`\`\`
+```
 
-2. **Instalar dependencias**
-\`\`\`bash
+3. **Instalar dependencias**
+```bash
 npm install
 # o
 yarn install
-\`\`\`
+```
 
 3. **Configurar el entorno**
-\`\`\`bash
+```bash
 # Los archivos JSON ya están incluidos en /data
 # No se requiere configuración adicional
-\`\`\`
+```
 
 4. **Ejecutar en modo desarrollo**
-\`\`\`bash
+```bash
 npm run dev
 # o
 yarn dev
-\`\`\`
+```
 
 5. **Abrir en el navegador**
-\`\`\`
+```
 http://localhost:3000
-\`\`\`
+```
 
 ## 📖 Uso de la Aplicación
 
@@ -251,7 +251,7 @@ http://localhost:3000
 ### Modificar Insumos
 - Editar el archivo \`data/insumos.json\`
 - Agregar nuevos insumos con la estructura:
-\`\`\`json
+```json
 {
   "id": "9",
   "nombre": "Nuevo Insumo",
@@ -260,12 +260,12 @@ http://localhost:3000
   "precio_unidad": 10,
   "descripcion": "Descripción del insumo"
 }
-\`\`\`
+```
 
 ### Información de la Empresa
 - Modificar \`utils/pdf-generator.ts\`
 - Cambiar los datos en \`companyInfo\`:
-\`\`\`typescript
+```typescript
 const companyInfo = {
   name: "Tu Empresa S.A.",
   address: "Tu Dirección",
@@ -274,20 +274,20 @@ const companyInfo = {
   website: "www.tuempresa.com",
   taxId: "Tu RFC/NIT"
 }
-\`\`\`
+```
 
 ## 🔧 Scripts Disponibles
 
-\`\`\`bash
+```bash
 npm run dev      # Ejecutar en modo desarrollo
 npm run build    # Construir para producción
 npm run start    # Ejecutar versión de producción
 npm run lint     # Verificar código con ESLint
-\`\`\`
+```
 
 ## 📦 Dependencias Principales
 
-\`\`\`json
+```json
 {
   "next": "14.0.0",
   "react": "^18",
@@ -298,7 +298,7 @@ npm run lint     # Verificar código con ESLint
   "lucide-react": "^0.292.0",
   "next-themes": "^0.2.1"
 }
-\`\`\`
+```
 
 ## 🚀 Despliegue
 

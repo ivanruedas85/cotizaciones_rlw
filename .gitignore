@@ -15,6 +15,7 @@
 
 # production
 /build
+/dist
 
 # misc
 .DS_Store
@@ -34,3 +35,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# electron
+/electron/node_modules
+/electron/dist
+*.log
+
+# build outputs
+/dist
+/release

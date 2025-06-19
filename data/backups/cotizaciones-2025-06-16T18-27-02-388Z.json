@@ -1,0 +1,31 @@
+[
+  {
+    "id": "COT-003",
+    "fecha": "2023-05-20",
+    "clienteId": "3",
+    "cliente": {
+      "nombre": "Carlos Rodríguez",
+      "telefono": "555-456-7890"
+    },
+    "descripcion": "Material para bolsos",
+    "detalles": {
+      "precioPiel": 1800,
+      "alto": 50,
+      "largo": 40,
+      "porcentaje": 10,
+      "precioUnitario": 18,
+      "precioResiduo": 20,
+      "totalResiduo": 22,
+      "valorInsumos": 150
+    },
+    "insumos": [
+      {
+        "id": "5",
+        "nombre": "Hebillas de metal",
+        "cantidad": 3,
+        "precioUnitario": 40
+      }
+    ],
+    "total": 1250.25
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1",
+    "nombre": "Cuero vacuno",
+    "precio_volumen": 5000,
+    "cantidad_volumen": 100,
+    "precio_unidad": 50,
+    "descripcion": "Cuero de alta calidad para trabajos de talabartería"
+  },
+  {
+    "id": "2",
+    "nombre": "Hilo encerado",
+    "precio_volumen": 1200,
+    "cantidad_volumen": 500,
+    "precio_unidad": 2.4,
+    "descripcion": "Hilo resistente para costuras de cuero"
+  },
+  {
+    "id": "3",
+    "nombre": "Remaches metálicos",
+    "precio_volumen": 800,
+    "cantidad_volumen": 200,
+    "precio_unidad": 4,
+    "descripcion": "Remaches de alta resistencia para uniones"
+  },
+  {
+    "id": "4",
+    "nombre": "Tinte para cuero",
+    "precio_volumen": 1500,
+    "cantidad_volumen": 1000,
+    "precio_unidad": 1.5,
+    "descripcion": "Tinte de calidad para acabados profesionales"
+  },
+  {
+    "id": "5",
+    "nombre": "Hebillas de metal",
+    "precio_volumen": 2000,
+    "cantidad_volumen": 50,
+    "precio_unidad": 40,
+    "descripcion": "Hebillas decorativas para cinturones y bolsos"
+  },
+  {
+    "id": "6",
+    "nombre": "Pegamento especial",
+    "precio_volumen": 900,
+    "cantidad_volumen": 300,
+    "precio_unidad": 3,
+    "descripcion": "Adhesivo de alta resistencia para cuero"
+  },
+  {
+    "id": "7",
+    "nombre": "Cera de acabado",
+    "precio_volumen": 1800,
+    "cantidad_volumen": 600,
+    "precio_unidad": 3,
+    "descripcion": "Cera para protección y brillo del cuero"
+  },
+  {
+    "id": "8",
+    "nombre": "Agujas para cuero",
+    "precio_volumen": 500,
+    "cantidad_volumen": 100,
+    "precio_unidad": 5,
+    "descripcion": "Agujas resistentes para coser cuero grueso"
+  }
+]

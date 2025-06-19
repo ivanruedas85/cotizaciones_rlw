@@ -1,0 +1,95 @@
+[
+  {
+    "id": "COT-001",
+    "fecha": "2023-05-15",
+    "clienteId": "1",
+    "cliente": {
+      "nombre": "Juan Pérez",
+      "telefono": "555-123-4567"
+    },
+    "descripcion": "Tapizado de sillones",
+    "detalles": {
+      "precioPiel": 4500,
+      "alto": 120,
+      "largo": 80,
+      "porcentaje": 10,
+      "precioUnitario": 45,
+      "precioResiduo": 96,
+      "totalResiduo": 105.6,
+      "valorInsumos": 350
+    },
+    "insumos": [
+      {
+        "id": "1",
+        "nombre": "Cuero vacuno",
+        "cantidad": 2,
+        "precioUnitario": 50
+      },
+      {
+        "id": "2",
+        "nombre": "Hilo encerado",
+        "cantidad": 5,
+        "precioUnitario": 2.4
+      }
+    ],
+    "total": 4580.75
+  },
+  {
+    "id": "COT-002",
+    "fecha": "2023-05-18",
+    "clienteId": "2",
+    "cliente": {
+      "nombre": "María González",
+      "telefono": "555-987-6543"
+    },
+    "descripcion": "Cuero para sofás",
+    "detalles": {
+      "precioPiel": 3200,
+      "alto": 90,
+      "largo": 60,
+      "porcentaje": 15,
+      "precioUnitario": 32,
+      "precioResiduo": 54,
+      "totalResiduo": 62.1,
+      "valorInsumos": 250
+    },
+    "insumos": [
+      {
+        "id": "3",
+        "nombre": "Remaches metálicos",
+        "cantidad": 10,
+        "precioUnitario": 4
+      }
+    ],
+    "total": 2340.5
+  },
+  {
+    "id": "COT-003",
+    "fecha": "2023-05-20",
+    "clienteId": "3",
+    "cliente": {
+      "nombre": "Carlos Rodríguez",
+      "telefono": "555-456-7890"
+    },
+    "descripcion": "Material para bolsos",
+    "detalles": {
+      "precioPiel": 1800,
+      "alto": 50,
+      "largo": 40,
+      "porcentaje": 10,
+      "precioUnitario": 18,
+      "precioResiduo": 20,
+      "totalResiduo": 22,
+      "valorInsumos": 150
+    },
+    "insumos": [
+      {
+        "id": "5",
+        "nombre": "Hebillas de metal",
+        "cantidad": 3,
+        "precioUnitario": 40
+      }
+    ],
+    "total": 1250.25
+  }
+]

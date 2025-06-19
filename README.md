@@ -94,8 +94,6 @@ sales-quotation-manager/
 │   └── insumos.json     # Catálogo de insumos
 ├── utils/               # Utilidades
 │   └── pdf-generator.ts # Generador de PDFs
-├── hooks/              # Custom hooks
-│   └── use-mobile.tsx  # Hook para detección móvil
 ├── lib/               # Librerías y configuraciones
 │   └── utils.ts      # Utilidades generales
 ├── package.json      # Dependencias del proyecto

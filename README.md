@@ -145,6 +145,7 @@ yarn install
 ```bash
 npm run dev
 # o
+# o
 yarn dev
 ```
 

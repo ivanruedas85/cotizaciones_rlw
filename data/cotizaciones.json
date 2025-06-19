@@ -225,5 +225,35 @@
     },
     "insumos": [],
     "total": 225.2712
+  },
+  {
+    "id": "COT-008",
+    "fecha": "2025-06-19",
+    "estado": "Pendiente",
+    "clienteId": "4",
+    "cliente": {
+      "nombre": "ivan Rueda",
+      "telefono": "9371176509"
+    },
+    "descripcion": "cartera de piel",
+    "detalles": {
+      "precioPiel": 966,
+      "alto": 40,
+      "largo": 53,
+      "porcentaje": 100,
+      "precioUnitario": 9.66,
+      "precioResiduo": 21.2,
+      "totalResiduo": 42.4,
+      "valorInsumos": 8
+    },
+    "insumos": [
+      {
+        "id": "3",
+        "nombre": "Remaches metálicos",
+        "cantidad": 2,
+        "precioUnitario": 4
+      }
+    ],
+    "total": 417.584
   }
 ]

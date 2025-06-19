@@ -46,7 +46,7 @@ Una aplicación web completa para la gestión de cotizaciones, inventario de ins
 
 ## 📁 Estructura del Proyecto
 
-\`\`\`
+```bash
 sales-quotation-manager/
 ├── app/                          # App Router de Next.js
 │   ├── api/                      # API Routes
@@ -102,7 +102,7 @@ sales-quotation-manager/
 ├── tailwind.config.ts # Configuración de Tailwind
 ├── tsconfig.json     # Configuración de TypeScript
 └── README.md         # Este archivo
-\`\`\`
+```
 
 ## 🚀 Instalación
 

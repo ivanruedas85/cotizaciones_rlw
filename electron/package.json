@@ -1,0 +1,12 @@
+{
+    "name": "gestorventas-desktop",
+    "version": "1.0.0",
+    "description": "GestorVentas Desktop Application",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "devDependencies": {
+        "electron": "^27.0.0"
+    }
+}

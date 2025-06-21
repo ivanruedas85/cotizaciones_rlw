@@ -6,8 +6,9 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { Search, Plus, Minus, Package } from "lucide-react"
-import insumosData from "@/data/insumos.json"
+import { Search, Plus, Minus, Package, Loader2 } from "lucide-react"
+// Remover esta línea:
+// import insumosData from "@/data/insumos.json"
 
 export type Insumo = {
   id: string
@@ -24,10 +25,34 @@ interface InsumosProps {
 }
 
 export function InsumosSelector({ onTotalChange }: InsumosProps) {
-  const [insumos, setInsumos] = useState<Insumo[]>(insumosData)
+  // Agregar estado para cargar datos:
+  const [isLoadingInsumos, setIsLoadingInsumos] = useState(true)
+  // Cambiar la inicialización del estado de insumos:
+  const [insumos, setInsumos] = useState<Insumo[]>([])
   const [searchTerm, setSearchTerm] = useState("")
   const [selectedInsumos, setSelectedInsumos] = useState<Insumo[]>([])
   const [valorTotal, setValorTotal] = useState(0)
+
+  // Agregar función para cargar insumos:
+  const loadInsumos = async () => {
+    try {
+      setIsLoadingInsumos(true)
+      const response = await fetch("/api/insumos")
+      if (response.ok) {
+        const data = await response.json()
+        setInsumos(data)
+      }
+    } catch (error) {
+      console.error("Error al cargar insumos:", error)
+    } finally {
+      setIsLoadingInsumos(false)
+    }
+  }
+
+  // Agregar useEffect para cargar datos:
+  useEffect(() => {
+    loadInsumos()
+  }, [])
 
   // Filtrar insumos según el término de búsqueda
   const filteredInsumos = insumos.filter((insumo) => insumo.nombre.toLowerCase().includes(searchTerm.toLowerCase()))
@@ -139,7 +164,12 @@ export function InsumosSelector({ onTotalChange }: InsumosProps) {
               </TableRow>
             </TableHeader>
             <TableBody>
-              {filteredInsumos.length > 0 ? (
+              {isLoadingInsumos ? (
+                <div className="flex items-center justify-center py-4">
+                  <Loader2 className="h-4 w-4 animate-spin mr-2" />
+                  <span className="text-sm text-gray-500">Cargando insumos...</span>
+                </div>
+              ) : filteredInsumos.length > 0 ? (
                 filteredInsumos.map((insumo) => (
                   <TableRow key={insumo.id}>
                     <TableCell className="font-medium">{insumo.nombre}</TableCell>
@@ -222,3 +252,4 @@ export function InsumosSelector({ onTotalChange }: InsumosProps) {
     </div>
   )
 }
+

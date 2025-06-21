@@ -35,7 +35,7 @@ function createWindow() {
     })
 
     // Cargar la aplicación
-    const startUrl = isDev ? "http://localhost:3000" : `file://${path.join(__dirname, "../out/index.html")}`
+    const startUrl = isDev ? "http://localhost:3000" : `file://${path.join(__dirname, "out", "index.html")}`
 
     if (isDev) {
         mainWindow.loadURL(startUrl)

@@ -1,66 +1,106 @@
 [
   {
     "id": "1",
-    "nombre": "Cuero vacuno",
-    "precio_volumen": 5000,
-    "cantidad_volumen": 100,
-    "precio_unidad": 50,
-    "descripcion": "Cuero de alta calidad para trabajos de talabartería"
+    "nombre": "Piolin 8mm",
+    "precio_volumen": 427,
+    "cantidad_volumen": 109,
+    "precio_unidad": 4.27,
+    "descripcion": "Botón tipo piolin de 8mm color oro"
   },
   {
     "id": "2",
-    "nombre": "Hilo encerado",
-    "precio_volumen": 1200,
-    "cantidad_volumen": 500,
-    "precio_unidad": 2.4,
-    "descripcion": "Hilo resistente para costuras de cuero"
+    "nombre": "Corredera N19",
+    "precio_volumen": 663.75,
+    "cantidad_volumen": 1003,
+    "precio_unidad": 0.664,
+    "descripcion": "Corredera de 19mm color oro"
   },
   {
     "id": "3",
-    "nombre": "Remaches metálicos",
-    "precio_volumen": 800,
-    "cantidad_volumen": 200,
-    "precio_unidad": 4,
-    "descripcion": "Remaches de alta resistencia para uniones"
+    "nombre": "Argolla media luna oro N19",
+    "precio_volumen": 250.75,
+    "cantidad_volumen": 1001,
+    "precio_unidad": 0.251,
+    "descripcion": "Argolla media luna de 19mm color oro"
   },
   {
     "id": "4",
-    "nombre": "Tinte para cuero",
-    "precio_volumen": 1500,
-    "cantidad_volumen": 1000,
-    "precio_unidad": 1.5,
-    "descripcion": "Tinte de calidad para acabados profesionales"
+    "nombre": "Eslabón N19 color oro",
+    "precio_volumen": 215.75,
+    "cantidad_volumen": 583,
+    "precio_unidad": 0.216,
+    "descripcion": "Eslabón ovalado de 19mm color oro"
   },
   {
     "id": "5",
-    "nombre": "Hebillas de metal",
-    "precio_volumen": 2000,
-    "cantidad_volumen": 50,
-    "precio_unidad": 40,
-    "descripcion": "Hebillas decorativas para cinturones y bolsos"
+    "nombre": "Argolla media luna N25",
+    "precio_volumen": 82.2,
+    "cantidad_volumen": 100,
+    "precio_unidad": 0.822,
+    "descripcion": "Argolla media luna de 25mm latón B"
   },
   {
     "id": "6",
-    "nombre": "Pegamento especial",
-    "precio_volumen": 900,
-    "cantidad_volumen": 300,
-    "precio_unidad": 3,
-    "descripcion": "Adhesivo de alta resistencia para cuero"
+    "nombre": "Piolin 6mm",
+    "precio_volumen": 297.2,
+    "cantidad_volumen": 100,
+    "precio_unidad": 2.972,
+    "descripcion": "Piolin de 6mm color oro"
   },
   {
     "id": "7",
-    "nombre": "Cera de acabado",
-    "precio_volumen": 1800,
-    "cantidad_volumen": 600,
-    "precio_unidad": 3,
-    "descripcion": "Cera para protección y brillo del cuero"
+    "nombre": "Ojillo oro",
+    "precio_volumen": 20,
+    "cantidad_volumen": 2,
+    "precio_unidad": 10,
+    "descripcion": "Ojillo para morral, bolsa y cinturón\nOro Rosado\n29 mm diámetro 15 mm Interior"
   },
   {
     "id": "8",
-    "nombre": "Agujas para cuero",
-    "precio_volumen": 500,
+    "nombre": "Eslabón N25 oro",
+    "precio_volumen": 82,
     "cantidad_volumen": 100,
-    "precio_unidad": 5,
-    "descripcion": "Agujas resistentes para coser cuero grueso"
+    "precio_unidad": 0.822,
+    "descripcion": "Eslabón avalado de 25mm color oro"
+  },
+  {
+    "id": "9",
+    "nombre": "Ojillo lona",
+    "precio_volumen": 53.2,
+    "cantidad_volumen": 10,
+    "precio_unidad": 5.32,
+    "descripcion": "Ojillo para lona de latón brillante"
+  },
+  {
+    "id": "10",
+    "nombre": "Hebillas 20mm",
+    "precio_volumen": 65,
+    "cantidad_volumen": 10,
+    "precio_unidad": 6.5,
+    "descripcion": "Hebillas BK-20 latón brillante"
+  },
+  {
+    "id": "11",
+    "nombre": "Clip de resorte oro",
+    "precio_volumen": 14.55,
+    "cantidad_volumen": 1,
+    "precio_unidad": 14.55,
+    "descripcion": "Clip de resorte para cartera de 8cm color oro"
+  },
+  {
+    "id": "12",
+    "nombre": "Clip de resorte pavon",
+    "precio_volumen": 14.55,
+    "cantidad_volumen": 1,
+    "precio_unidad": 14.55,
+    "descripcion": "Clip de resorte para cartera de 8cm color pavon"
+  },
+  {
+    "id": "13",
+    "nombre": "Broche niquelado",
+    "precio_volumen": 30.5,
+    "cantidad_volumen": 1,
+    "precio_unidad": 3.5,
+    "descripcion": "Broche niquelado de 6x6.3cm"
   }
 ]

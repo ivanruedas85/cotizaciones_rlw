@@ -2,6 +2,7 @@
   "name": "cotizaciones_rlw",
   "version": "0.1.0",
   "private": true,
+  "author": "ivanruedas85",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -54,6 +55,7 @@
     "@radix-ui/react-label": "^2.1.7",
     "@radix-ui/react-progress": "^1.1.7",
     "@radix-ui/react-select": "^2.2.5",
+    "@radix-ui/react-separator": "^1.1.7",
     "@radix-ui/react-tabs": "^1.1.12",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "author": "ivanruedas85",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -22,6 +23,7 @@
       "output": "dist"
     },
     "files": [
+      "**/*",
       ".next/**/*",
       "electron/**/*",
       "data/**/*",

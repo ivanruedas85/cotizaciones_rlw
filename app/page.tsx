@@ -1,5 +1,5 @@
 import { SalesQuotationForm } from "@/components/sales-quotation-form"
-import {DESCRIPTION_SITE} from "@/utils/const.ts"
+import { DESCRIPTION_SITE } from "@/utils/const"
 
 export default function Home() {
   return (

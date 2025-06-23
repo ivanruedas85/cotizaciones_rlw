@@ -1,4 +1,4 @@
-import { SITE_LARGE_TITLE, INITIAL_DATE } from "@/utils/const.ts"
+import { SITE_LARGE_TITLE, INITIAL_DATE } from "@/utils/const"
 
 export function Footer() {
     return (

@@ -11,6 +11,20 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: { SITE_LARGE_TITLE },
   description: { DESCRIPTION_SITE },
+  manifest: "/site.webmanifest",
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+    shortcut: "/favicon-32x32.png",
+    other: [
+      {
+        rel: "icon",
+        url: "/favicon-96x96.png",
+        sizes: "96x96",
+        type: "image/png"
+      },
+    ]
+  }
 }
 
 export default function RootLayout({

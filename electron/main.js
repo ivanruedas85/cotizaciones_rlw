@@ -29,7 +29,7 @@ function createWindow() {
             webSecurity: true,
             preload: path.join(__dirname, "preload.js"),
         },
-        icon: path.join(__dirname, "../public/favicon.png"),
+        icon: path.join(__dirname, "../public/favicon.ico"),
         show: false,
         titleBarStyle: process.platform === "darwin" ? "hiddenInset" : "default",
     })

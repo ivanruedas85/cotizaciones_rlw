@@ -3,13 +3,14 @@ import "./globals.css"
 import { Inter } from "next/font/google"
 import { Navbar } from "@/components/navbar"
 import { ThemeProvider } from "@/components/theme-provider"
-import {Footer} from "@/components/footer"
+import { Footer } from "@/components/footer"
+import { DESCRIPTION_SITE, SITE_LARGE_TITLE } from "@/utils/const"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Gestor de Ventas y Cotizaciones",
-  description: "Aplicación para gestionar ventas y cotizaciones",
+  title: { SITE_LARGE_TITLE },
+  description: { DESCRIPTION_SITE },
 }
 
 export default function RootLayout({

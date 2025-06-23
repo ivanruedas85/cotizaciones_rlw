@@ -13,56 +13,56 @@
 @layer base {
   :root {
     --background: 0 0% 100%; /*White ##ffffff*/
-    --foreground: 222.2 84% 4.9%; /*#020817*/
+    --foreground: 222.2 84% 4.9%; /*Black Pearl #020817*/
     --card: 0 0% 100%; /*White ##ffffff*/
-    --card-foreground: 222.2 84% 4.9%; /*#020817*/
+    --card-foreground: 222.2 84% 4.9%; /*Black Pearl #020817*/
     --popover: 0 0% 100%; /*White ##ffffff*/
-    --popover-foreground: 222.2 84% 4.9%; /*#020817*/
-    --primary: 222.2 47.4% 11.2%; /*#0f172a*/
-    --primary-foreground: 210 40% 98%; /*#f8fafc*/
-    --secondary: 210 40% 96.1%; /*#f1f5f9*/
-    --secondary-foreground: 222.2 47.4% 11.2%; /*#0f172a*/
-    --muted: 210 40% 96.1%; /*#f1f5f9*/
+    --popover-foreground: 222.2 84% 4.9%; /*Black Pearl #020817*/
+    --primary: 222.2 47.4% 11.2%; /*Ebony #0f172a*/
+    --primary-foreground: 210 40% 98%; /*Catskill White #f8fafc*/
+    --secondary: 210 40% 96.1%; /*Catskill White 2 #f1f5f9*/
+    --secondary-foreground: 222.2 47.4% 11.2%; /*Ebony #0f172a*/
+    --muted: 210 40% 96.1%; /*Catskill White 2 #f1f5f9*/
     --muted-foreground: 215.4 16.3% 46.9%; /*#64748b*/
-    --accent: 210 40% 96.1%; /*#f1f5f9*/
-    --accent-foreground: 222.2 47.4% 11.2%; /*#0f172a*/
-    --destructive: 0 84.2% 60.2%; /*#ef4444*/
-    --destructive-foreground: 210 40% 98%; /*#f8fafc*/
-    --border: 214.3 31.8% 91.4%; /*#e2e8f0*/
-    --input: 214.3 31.8% 91.4%; /*#e2e8f0*/
-    --ring: 222.2 84% 4.9%; /*#020817*/
-    --chart-1: 12 76% 61%; /*#e76e50*/
-    --chart-2: 173 58% 39%; /*#2a9d90*/
-    --chart-3: 197 37% 24%; /*#274754*/
-    --chart-4: 43 74% 66%; /*#e8c468*/
-    --chart-5: 27 87% 67%; /*#f4a462*/
+    --accent: 210 40% 96.1%; /*Catskill White 2 #f1f5f9*/
+    --accent-foreground: 222.2 47.4% 11.2%; /*Ebony #0f172a*/
+    --destructive: 0 84.2% 60.2%; /*Flamingo #ef4444*/
+    --destructive-foreground: 210 40% 98%; /*Catskill White #f8fafc*/
+    --border: 214.3 31.8% 91.4%; /*Catskill White 3 #e2e8f0*/
+    --input: 214.3 31.8% 91.4%; /*Catskill White 3 #e2e8f0*/
+    --ring: 222.2 84% 4.9%; /*Black Pearl #020817*/
+    --chart-1: 12 76% 61%; /*Burnt Sienna #e76e50*/
+    --chart-2: 173 58% 39%; /*Jungle Green #2a9d90*/
+    --chart-3: 197 37% 24%; /*Blue Dianne #274754*/
+    --chart-4: 43 74% 66%; /*Rob Roy #e8c468*/
+    --chart-5: 27 87% 67%; /*Sandy brown #f4a462*/
     --radius: 0.5rem;
   }
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --chart-1: 220 70% 50%;
-    --chart-2: 160 60% 45%;
-    --chart-3: 30 80% 55%;
-    --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%;
+    --background: 222.2 84% 4.9%; /*Black Pearl #020817*/
+    --foreground: 210 40% 98%; /*Catskill White #f8fafc*/
+    --card: 222.2 84% 4.9%; /*Black Pearl #020817*/
+    --card-foreground: 210 40% 98%; /*Catskill White #f8fafc*/
+    --popover: 222.2 84% 4.9%; /*Black Pearl #020817*/
+    --popover-foreground: 210 40% 98%; /*Catskill White #f8fafc*/
+    --primary: 210 40% 98%; /*Catskill White #f8fafc*/
+    --primary-foreground: 222.2 47.4% 11.2%; /*Ebony #0f172a*/
+    --secondary: 217.2 32.6% 17.5%; /*Mirage #1e293b*/
+    --secondary-foreground: 210 40% 98%; /*Catskill White #f8fafc*/
+    --muted: 217.2 32.6% 17.5%; /*Mirage #1e293b*/
+    --muted-foreground: 215 20.2% 65.1%; /*Gull Gray #94a3b8*/
+    --accent: 217.2 32.6% 17.5%; /*Mirage #1e293b*/
+    --accent-foreground: 210 40% 98%; /*Catskill White #f8fafc*/
+    --destructive: 0 62.8% 30.6%; /*Crown of Thorns #7f1d1d*/
+    --destructive-foreground: 210 40% 98%; /*Catskill White #f8fafc*/
+    --border: 217.2 32.6% 17.5%; /*Mirage #1e293b*/
+    --input: 217.2 32.6% 17.5%; /*Mirage #1e293b*/
+    --ring: 212.7 26.8% 83.9%; /*Geyser #cbd5e1*/
+    --chart-1: 220 70% 50%; /*Mariner #2662d9*/
+    --chart-2: 160 60% 45%; /*Jungle Green #2eb88a*/
+    --chart-3: 30 80% 55%; /*Fire Bush #e88c30*/
+    --chart-4: 280 65% 60%; /*Medium Purple #af57db*/
+    --chart-5: 340 75% 55%; /*Cerise Red #e23670*/
   }
 }
 

@@ -3,10 +3,12 @@
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { Button } from "@/components/ui/button"
-import { FileText, Home, Menu, X, Package, Users } from "lucide-react"
+import { Home, FileText, Package, Users, Menu, X } from "lucide-react"
+//import { DynamicIcon } from "lucide-react/dynamic"
 import { useState } from "react"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { SITE_SMALL_TITLE } from "@/utils/const"
+import Routes from "@/data/routes.json"
 
 export function Navbar() {
   const pathname = usePathname()
@@ -28,7 +30,15 @@ export function Navbar() {
 
           {/* Navegación para escritorio */}
           <nav className="hidden md:flex items-center space-x-4">
-            <Link href="/" passHref>
+            {Routes.map((route) => (
+              <Link href={route.path} passHref>
+                <Button variant={pathname === `${route.path}` ? "default" : "ghost"} className="flex items-center">
+                  {/*<Home className="mr-2 h-4 w-4" />*/}
+                  {route.name}
+                </Button>
+              </Link>
+            ))}
+            {/*<Link href="/" passHref>
               <Button variant={pathname === "/" ? "default" : "ghost"} className="flex items-center">
                 <Home className="mr-2 h-4 w-4" />
                 Inicio
@@ -51,7 +61,7 @@ export function Navbar() {
                 <Users className="mr-2 h-4 w-4" />
                 Clientes
               </Button>
-            </Link>
+            </Link>*/}
             <ThemeToggle />
           </nav>
 

@@ -4,7 +4,7 @@
     "nombre": "Piolin 8mm",
     "precio_volumen": 427,
     "cantidad_volumen": 109,
-    "precio_unidad": 4.27,
+    "precio_unidad": 5,
     "descripcion": "Botón tipo piolin de 8mm color oro"
   },
   {
@@ -12,7 +12,7 @@
     "nombre": "Corredera N19",
     "precio_volumen": 663.75,
     "cantidad_volumen": 1003,
-    "precio_unidad": 0.664,
+    "precio_unidad": 2,
     "descripcion": "Corredera de 19mm color oro"
   },
   {
@@ -20,7 +20,7 @@
     "nombre": "Argolla media luna oro N19",
     "precio_volumen": 250.75,
     "cantidad_volumen": 1001,
-    "precio_unidad": 0.251,
+    "precio_unidad": 2,
     "descripcion": "Argolla media luna de 19mm color oro"
   },
   {
@@ -28,7 +28,7 @@
     "nombre": "Eslabón N19 color oro",
     "precio_volumen": 215.75,
     "cantidad_volumen": 583,
-    "precio_unidad": 0.216,
+    "precio_unidad": 2,
     "descripcion": "Eslabón ovalado de 19mm color oro"
   },
   {
@@ -36,7 +36,7 @@
     "nombre": "Argolla media luna N25",
     "precio_volumen": 82.2,
     "cantidad_volumen": 100,
-    "precio_unidad": 0.822,
+    "precio_unidad": 2.5,
     "descripcion": "Argolla media luna de 25mm latón B"
   },
   {
@@ -44,7 +44,7 @@
     "nombre": "Piolin 6mm",
     "precio_volumen": 297.2,
     "cantidad_volumen": 100,
-    "precio_unidad": 2.972,
+    "precio_unidad": 3.5,
     "descripcion": "Piolin de 6mm color oro"
   },
   {
@@ -52,7 +52,7 @@
     "nombre": "Ojillo oro",
     "precio_volumen": 20,
     "cantidad_volumen": 2,
-    "precio_unidad": 10,
+    "precio_unidad": 15,
     "descripcion": "Ojillo para morral, bolsa y cinturón\nOro Rosado\n29 mm diámetro 15 mm Interior"
   },
   {
@@ -60,7 +60,7 @@
     "nombre": "Eslabón N25 oro",
     "precio_volumen": 82,
     "cantidad_volumen": 100,
-    "precio_unidad": 0.822,
+    "precio_unidad": 2.5,
     "descripcion": "Eslabón avalado de 25mm color oro"
   },
   {
@@ -68,7 +68,7 @@
     "nombre": "Ojillo lona",
     "precio_volumen": 53.2,
     "cantidad_volumen": 10,
-    "precio_unidad": 5.32,
+    "precio_unidad": 6,
     "descripcion": "Ojillo para lona de latón brillante"
   },
   {
@@ -76,7 +76,7 @@
     "nombre": "Hebillas 20mm",
     "precio_volumen": 65,
     "cantidad_volumen": 10,
-    "precio_unidad": 6.5,
+    "precio_unidad": 10,
     "descripcion": "Hebillas BK-20 latón brillante"
   },
   {
@@ -84,7 +84,7 @@
     "nombre": "Clip de resorte oro",
     "precio_volumen": 14.55,
     "cantidad_volumen": 1,
-    "precio_unidad": 14.55,
+    "precio_unidad": 16,
     "descripcion": "Clip de resorte para cartera de 8cm color oro"
   },
   {
@@ -92,7 +92,7 @@
     "nombre": "Clip de resorte pavon",
     "precio_volumen": 14.55,
     "cantidad_volumen": 1,
-    "precio_unidad": 14.55,
+    "precio_unidad": 16,
     "descripcion": "Clip de resorte para cartera de 8cm color pavon"
   },
   {
@@ -100,7 +100,55 @@
     "nombre": "Broche niquelado",
     "precio_volumen": 30.5,
     "cantidad_volumen": 1,
-    "precio_unidad": 3.5,
+    "precio_unidad": 35,
     "descripcion": "Broche niquelado de 6x6.3cm"
+  },
+  {
+    "id": "14",
+    "nombre": "Eslabón N32 largo redondo",
+    "precio_volumen": 560.98,
+    "cantidad_volumen": 1000,
+    "precio_unidad": 3,
+    "descripcion": "Eslabón de 32mm largo redondo color niquel"
+  },
+  {
+    "id": "15",
+    "nombre": "Hebilla N32 Niquel",
+    "precio_volumen": 191.97,
+    "cantidad_volumen": 7,
+    "precio_unidad": 20,
+    "descripcion": "Hebilla de 32mm color niquel"
+  },
+  {
+    "id": "16",
+    "nombre": "Bandola N19 niquel",
+    "precio_volumen": 65,
+    "cantidad_volumen": 10,
+    "precio_unidad": 3.5,
+    "descripcion": "Bandola color Niquel de 19mm"
+  },
+  {
+    "id": "17",
+    "nombre": "Bandola N19 latón",
+    "precio_volumen": 65,
+    "cantidad_volumen": 10,
+    "precio_unidad": 3.5,
+    "descripcion": "Bandola color latón de 19mm"
+  },
+  {
+    "id": "18",
+    "nombre": "Argolla media luna #32 niquel",
+    "precio_volumen": 135,
+    "cantidad_volumen": 196,
+    "precio_unidad": 3,
+    "descripcion": "Argolla media luna color niquel de 32mm"
+  },
+  {
+    "id": "19",
+    "nombre": "Hebilla Con rodillo N22",
+    "precio_volumen": 1091,
+    "cantidad_volumen": 1002,
+    "precio_unidad": 2,
+    "descripcion": "Hebilla con rodillo de 22mm color latón"
   }
 ]

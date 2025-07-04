@@ -2,6 +2,8 @@
 
 ![rlw](./assets//reference_img//RLW_landing.png)
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ivanruedas85/cotizaciones_rlw)
+
 Una aplicación web completa para la gestión de cotizaciones, inventario de insumos y análisis de ventas, especialmente diseñada para negocios de talabartería y trabajos en cuero. **Ahora disponible como aplicación de escritorio multiplataforma con actualizaciones automáticas.**
 
 ## 🚀 Características Principales

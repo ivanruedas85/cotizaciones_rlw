@@ -8,11 +8,12 @@ const Card = React.forwardRef<
     glass?: boolean
     blur?: "sm" | "md" | "lg" | "xl"
     opacity?: number
+    enhanced?: boolean
   }
->(({ className, glass = true, blur = "md", opacity = 0.1, ...props }, ref) => {
+>(({ className, glass = true, blur = "md", opacity = 0.15, enhanced = true, ...props }, ref) => {
   if (glass) {
     return (
-      <Glass ref={ref} blur={blur} opacity={opacity} className={cn("text-card-foreground", className)} {...props} />
+      <Glass ref={ref} blur={blur} opacity={opacity} enhanced={enhanced} className={cn("text-card-foreground", className)} {...props} />
     )
   }
 

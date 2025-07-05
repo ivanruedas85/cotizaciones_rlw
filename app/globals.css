@@ -77,22 +77,37 @@
   }
 }
 
-/* Efectos glass mejorados */
+/* Efectos glass mejorados con mejor contraste */
 @layer utilities {
   .glass-effect {
-    @apply backdrop-blur-md bg-white/10 dark:bg-white/5 border border-white/20 dark:border-white/10;
-    @apply shadow-xl shadow-black/10 dark:shadow-black/20;
+    @apply backdrop-blur-md bg-white/15 dark:bg-white/8 border border-white/25 dark:border-white/15;
+    @apply shadow-xl shadow-black/20 dark:shadow-black/40;
     @apply backdrop-saturate-150;
   }
 
   .glass-hover {
-    @apply hover:bg-white/20 dark:hover:bg-white/10 transition-all duration-300;
+    @apply hover:bg-white/25 dark:hover:bg-white/12 transition-all duration-300;
   }
 
   .glass-button {
-    @apply bg-white/10 hover:bg-white/20 dark:bg-white/5 dark:hover:bg-white/10;
-    @apply backdrop-blur-sm border border-white/20 dark:border-white/10;
+    @apply bg-white/15 hover:bg-white/25 dark:bg-white/8 dark:hover:bg-white/15;
+    @apply backdrop-blur-sm border border-white/25 dark:border-white/15;
     @apply transition-all duration-300;
+  }
+
+  /* Mejora de legibilidad del texto */
+  .text-enhanced {
+    @apply text-gray-900 dark:text-gray-100;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
+
+  .text-enhanced-light {
+    @apply text-gray-800 dark:text-gray-200;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .bg-content {
+    @apply bg-white/20 dark:bg-black/30 backdrop-blur-sm;
   }
 }
 
@@ -117,12 +132,27 @@
   }
 }
 
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
 .animate-float {
   animation: float 3s ease-in-out infinite;
 }
 
 .animate-glow {
   animation: glow 2s ease-in-out infinite;
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
 }
 
 /* Estilos para impresión */
@@ -198,16 +228,16 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-white/20 dark:bg-white/10 rounded-full;
+  @apply bg-white/30 dark:bg-white/20 rounded-full;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-white/30 dark:bg-white/20;
+  @apply bg-white/40 dark:bg-white/30;
 }
 
 /* Efectos de selección */
 ::selection {
-  @apply bg-primary/20 text-primary-foreground;
+  @apply bg-primary/30 text-primary-foreground;
 }
 
 /* Mejoras para el modo oscuro */
@@ -218,4 +248,22 @@
 /* Transiciones suaves para el cambio de tema */
 * {
   transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+/* Mejoras específicas para legibilidad sobre fondo de cuero */
+.leather-bg-text {
+  @apply text-gray-900 dark:text-gray-100 font-medium;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5), 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.leather-bg-text-light {
+  @apply text-gray-800 dark:text-gray-200;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 0 5px rgba(255, 255, 255, 0.1);
+}
+
+/* Efectos especiales para elementos sobre el fondo de cuero */
+.leather-glass {
+  @apply backdrop-blur-lg bg-white/20 dark:bg-black/40;
+  @apply border border-white/30 dark:border-white/20;
+  @apply shadow-2xl shadow-black/30 dark:shadow-black/50;
 }

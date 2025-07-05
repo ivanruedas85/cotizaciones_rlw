@@ -44,3 +44,5 @@ next-env.d.ts
 # build outputs
 /dist
 /release
+
+/data

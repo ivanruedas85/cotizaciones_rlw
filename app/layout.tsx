@@ -36,7 +36,7 @@ export default function RootLayout({
     <html lang="es" suppressHydrationWarning>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
-          <div className="min-h-screen bg-background text-foreground">
+          <div className="min-h-screen bg-[url(/img/fondo_carteras.png)] bg-origin-border p-3 bg-center bg-no-repeat bg-cover text-foreground"> {/* bg-background */}
             <Navbar />
             {children}
             <Footer />

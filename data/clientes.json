@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "1",
+    "nombre": "Esteisy joana",
+    "telefono": "132654987",
+    "email": "estey@correo.com",
+    "direccion": "dir",
+    "fechaRegistro": "2025-07-05"
+  }
+]

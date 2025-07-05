@@ -45,4 +45,7 @@ next-env.d.ts
 /dist
 /release
 
-/data
+/data/backups
+/data/clientes.json
+/data/insumos.json
+/data/cotizaciones.json

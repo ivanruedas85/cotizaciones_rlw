@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import { Glass } from "./ui/glass"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { ProgressDemo } from "@/components/ui/progress"
@@ -99,7 +100,7 @@ export function UpdateStatus() {
     }
 
     return (
-        <Card className="w-full max-w-md">
+        <Glass className="w-full max-w-md" blur="lg" opacity={0.15}>
             <CardHeader>
                 <CardTitle className="flex items-center">
                     <RefreshCw className="mr-2 h-5 w-5" />
@@ -139,7 +140,7 @@ export function UpdateStatus() {
                         size="sm"
                         onClick={handleCheckForUpdates}
                         disabled={isChecking || isDownloading}
-                        className="flex-1"
+                        className="flex-1 bg-white/10 hover:bg-white/20 backdrop-blur-sm"
                     >
                         {isChecking ? <RefreshCw className="mr-2 h-4 w-4 animate-spin" /> : <RefreshCw className="mr-2 h-4 w-4" />}
                         Verificar
@@ -160,6 +161,6 @@ export function UpdateStatus() {
                     )}
                 </div>
             </CardContent>
-        </Card>
+        </Glass>
     )
 }

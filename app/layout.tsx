@@ -5,6 +5,7 @@ import { Navbar } from "@/components/navbar"
 import { ThemeProvider } from "@/components/theme-provider"
 import { Footer } from "@/components/footer"
 import { DESCRIPTION_SITE, SITE_LARGE_TITLE } from "@/utils/const"
+import { AnimatedBackground } from "@/components/animated-backgrounds"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -36,9 +37,10 @@ export default function RootLayout({
     <html lang="es" suppressHydrationWarning>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
-          <div className="min-h-screen bg-[url(/img/fondo_carteras.png)] bg-origin-border p-3 bg-center bg-no-repeat bg-cover text-foreground"> {/* bg-background */}
+          <div className="min-h-screen text-foreground flex flex-col relative">
+            <AnimatedBackground />
             <Navbar />
-            {children}
+            <main className="flex-1 relative z-10">{children}</main>
             <Footer />
           </div>
         </ThemeProvider>
